@@ -4,13 +4,17 @@
 /**
  * main - Entry point of code
  *
- * Description: 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
+ * Description: Prints a string
  *
- * Return: Always 0 (success)
+ * Return: Always 1 (failure)
  */
 
 int main(void)
 {
-write(1, "and that piece of art is useful\" - Dora korpar, 2015-10-19\n", 59);
+
+char *s;
+
+s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(2, s, 59);
 return (1);
 }
