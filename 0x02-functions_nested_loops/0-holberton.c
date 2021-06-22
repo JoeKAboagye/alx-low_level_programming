@@ -1,4 +1,5 @@
-#include <holberton.h>
+#include <stdio.h>
+#include "holberton.h"
 
 /**
 * main - Print the word "Holberton"
