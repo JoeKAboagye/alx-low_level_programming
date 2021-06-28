@@ -8,7 +8,7 @@ int rand_passwd;
 int count;
 int total;
 
-srand(time(NULL));
+srand(time(0));
 for (count = 0, total = 2772; total > 122; count++)
 {
 rand_passwd = (rand() % 125) + 1;
