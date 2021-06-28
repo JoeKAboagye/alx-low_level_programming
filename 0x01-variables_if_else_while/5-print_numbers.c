@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints numbers of base 10 starting at 0
+ * Description: Prints numbers of base 10 starting from 0
  *
  * Return: Always 0
  */
