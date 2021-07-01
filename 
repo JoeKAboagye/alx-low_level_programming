@@ -1,0 +1,751 @@
+[33mcommit ee2713a2490b72c89d45eaf98d59e67e765752f3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 10:20:05 2021 -0700
+
+    Encodes a string into 1337
+
+[33mcommit 2664fb625676b30ae35eca8cd16840ef6b4821a2[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 10:08:35 2021 -0700
+
+    Capitalizes all words of a string
+
+[33mcommit 59c86b619a31f0209bb941edea69d8045fee4215[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 09:46:29 2021 -0700
+
+    Header file
+
+[33mcommit 44b64577fc7ed984d33810f426b93747d2df802b[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 09:41:57 2021 -0700
+
+    Changes all lowercase to uppercase
+
+[33mcommit 31c4db62ef25883fe7d839ef12ba439e7eb3845b[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 09:36:10 2021 -0700
+
+    Reverses the content of an array of integers
+
+[33mcommit d64c77dc09e6e9694bd13f827a7904ac4592eac7[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 09:27:51 2021 -0700
+
+    Compares two strings
+
+[33mcommit 11df58436cc5f14903701b2691e500bcff79abf8[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 09:21:49 2021 -0700
+
+    Copies a string
+
+[33mcommit 0653cb4c33fdabfb4cba051258270085db239637[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 09:21:27 2021 -0700
+
+    Copies a string
+
+[33mcommit a50ee92d158b7a28adad50b415b4a1d1b62436e6[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 08:53:55 2021 -0700
+
+    Concatenates two strings
+
+[33mcommit 6a52b9a2b77f1dda235caf078bf4ff8f421428f6[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 08:48:19 2021 -0700
+
+    Concatenates two strings
+
+[33mcommit 8e80ba5607457113a159ab5cb8ac246c4701af74[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 30 08:30:49 2021 -0700
+
+    Update README.md
+
+[33mcommit bed530d76e7af3a9bf9813215794ff3deb99b714[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 13:40:04 2021 -0700
+
+    Generates random password
+
+[33mcommit 72d013ef1022fab63583aefecc16007030a0a0f6[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 13:29:25 2021 -0700
+
+    Generates random password
+
+[33mcommit 0decfb914c2ad7bd425387b9d023ad419083d489[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 13:29:00 2021 -0700
+
+    Generates random password
+
+[33mcommit e4d98bd18d3fdb1105d9b9bb35516c39fe5ef829[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 13:15:49 2021 -0700
+
+    Converts string to integer
+
+[33mcommit b38fc2dbd60584720ce804c7504b552b726acc9d[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 13:04:16 2021 -0700
+
+    Converts string to integer
+
+[33mcommit 4853e178cdfc4d52f149ec5ebe18e732659f7f09[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 13:03:53 2021 -0700
+
+    Converts string to integer
+
+[33mcommit 5029bc753096e908d8f45890e2380e3c643058be[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 12:16:56 2021 -0700
+
+    Prints copy of original string
+
+[33mcommit 1cc3e145d8ad2fd200e71948a427e507af5852e7[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 12:11:55 2021 -0700
+
+    Prints n elements of an array
+
+[33mcommit 5e0dd2016876c5031e23a3c0e08e1783b55845b2[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 12:08:07 2021 -0700
+
+    Prints copy of original string
+
+[33mcommit f948e9067fb31a88bb977c4ac7b6c4e2a8177bc9[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 11:46:51 2021 -0700
+
+    Prints half of a string
+
+[33mcommit 38da10828d244c5d877ab18817c6eca8b5924482[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 11:38:25 2021 -0700
+
+    Prints characters of a string
+
+[33mcommit ece335d6304404ebf712c6a556180db46b55f600[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 11:28:17 2021 -0700
+
+    Reverses a string
+
+[33mcommit 07bb0b60cfc52198c3e623965a09396119492d61[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 11:27:51 2021 -0700
+
+    Reverses a string
+
+[33mcommit 254bd74458120cd2c46a895c0e4c8cb4d44fa7dc[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 11:10:06 2021 -0700
+
+    Prints a string, in reverse
+
+[33mcommit 4ecc3c392abbf64dbc1c25ef99a21ddcd38ae160[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 11:05:07 2021 -0700
+
+    Prints a string
+
+[33mcommit a7cdcef580d71bfdaee4e95ad59a3d362a232e62[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 10:45:58 2021 -0700
+
+    Returns length of a string
+
+[33mcommit 6495e345a6c6ae61c1f5390c0e1cbc9609e96ff8[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 10:28:13 2021 -0700
+
+    Swaps value of two integers
+
+[33mcommit 1546050281203628ab5ccc0fc7f7d43e3758d17d[m
+Merge: e12207f 211d9e9
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 09:40:47 2021 -0700
+
+    Merge branch 'main' of https://github.com/JoeKAboagye/alx-low_level_programming into main
+    Necesssary merge
+
+[33mcommit e12207f0b74cb14cffedc4bacdafb80aca8f3ae5[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 09:37:16 2021 -0700
+
+    Pointer & int update
+
+[33mcommit 731f036ab972f66f104aa15f1adb2ee07dfc497f[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 09:36:40 2021 -0700
+
+    Pointer & int update
+
+[33mcommit 35122edecea7aa14f4a65eada20561ad642c920f[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 09:14:06 2021 -0700
+
+    Header file
+
+[33mcommit f0158aebd2135ffb04799a3d0c63a6f63c1934b6[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Mon Jun 28 09:07:25 2021 -0700
+
+    Read me
+
+[33mcommit 211d9e96e39f1a7b21c9a6c1472774fbcafc1119[m
+Author: JoeKAboagye <josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 25 18:51:47 2021 +0000
+
+    C code that prints all single digits of base 10 from '0'
+
+[33mcommit 232eef5005cd4a578aef02e164f64800d0d7bb09[m
+Author: JoeKAboagye <josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 25 18:49:14 2021 +0000
+
+    C code that prints the alphabets in lowercase except 'q' and 'e'
+
+[33mcommit 365d53dde405a3f67a33c2505a06da76e6336a3e[m
+Author: JoeKAboagye <josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 25 18:23:14 2021 +0000
+
+    Update 0-positive_or_negative.c
+
+[33mcommit 55ad59f17b56e4938149fe137c30b8deee2deace[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 07:45:16 2021 -0700
+
+    Prints an integer
+
+[33mcommit 5e596e28e64bd9d8dff929cdd708f8fb9446ff89[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 07:38:25 2021 -0700
+
+    Prints the largest prime factor of the number 612852475143, followed by a new line
+
+[33mcommit a7b653a1449066ad997a2db5cdd62e4c81ef6a6f[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 07:19:02 2021 -0700
+
+    Prints a triangle, followed by a new line
+
+[33mcommit e942ccaa322957dc477f1708713ba1d5fb4826d0[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 07:14:50 2021 -0700
+
+    Prints numbers from 1 to 100 replacing multiples of 3, 5 & '3*5' with 'Fizz', 'Buzz' and 'FizzBuzz' respectively
+
+[33mcommit 12432f30ad3370ec62c73a0b450bead46f606b2a[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:47:11 2021 -0700
+
+    Prints a square, followed by a new line
+
+[33mcommit c6ca0a9a05c1b70ce2dac0a9c96ef9a839409e04[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:42:40 2021 -0700
+
+    Draws a diagonal line on the terminal
+
+[33mcommit 7218114a48d5f201b7f14d9ea124284cb3fee6bc[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:39:46 2021 -0700
+
+    Draws a diagonal line on the terminal
+
+[33mcommit 5a1a50efdf5ab8350f27ce1d9b07fc7d762af52f[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:33:39 2021 -0700
+
+    Draws a straight line in the terminal
+
+[33mcommit 1371dca06c70b9313aa62b1711e72a549f452c5f[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:28:09 2021 -0700
+
+    Prints 10 times the numbers, from 0 to 14, followed by a new line
+
+[33mcommit f61eb3bd9b11b09b4cb377cabd15e3a94d2c7a5c[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:21:38 2021 -0700
+
+    Prints numbers from 0 to 9(except 2 & 4), followed by a newline
+
+[33mcommit a6d5564f82b636d46626004fad81da33a43c03bf[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:17:15 2021 -0700
+
+    Prints numbers from 0 to 9, followed by a newline
+
+[33mcommit fbc318b8a8addc059592d0610de940694c56ac09[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:16:51 2021 -0700
+
+    Prints numbers from 0 to 9, followed by a newline
+
+[33mcommit 2719aee87332d883127b3402f4c70f1b429b999b[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:09:09 2021 -0700
+
+    Checks for uppercase characters
+
+[33mcommit 0882a839c71c00c9fc1ba92b1493dfbd0d245012[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:07:35 2021 -0700
+
+    Multiplies two integers
+
+[33mcommit 68643b209bb258dc66ccf2b42cfb1f00976ff5fc[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:01:01 2021 -0700
+
+    Checks for a digit from 0 to 9
+
+[33mcommit 0aa89b005aa46617e0be79993ceeec06e8b98454[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 06:00:27 2021 -0700
+
+    Checks for a digit from 0 to 9
+
+[33mcommit f1c855acfba2e2b09fb448c6f0d1b537cc16f2b3[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 05:40:30 2021 -0700
+
+    Header file for today's project
+
+[33mcommit ef4ef9618fc52a1dfabd70266933bb464f409586[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 05:37:22 2021 -0700
+
+    Code checks if character is uppercase
+
+[33mcommit f92a82b4f40c0b1050acc6e6e7a702729f2d5b29[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 24 05:33:03 2021 -0700
+
+    More functions and nested loops in C language, using an added header file 'holberton.h'
+
+[33mcommit 945598cfd56f802a615648892f7f3c79057aeaf6[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 23 09:58:52 2021 -0700
+
+    Fixing the print_remaining_days() function so that the output works correctly for all dates and all leap years
+
+[33mcommit e6c8e5d85549d2cc97ef2796145f0262360a26a1[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 23 08:56:06 2021 -0700
+
+    Returns the largest of 3 numbers no matter what
+
+[33mcommit 34402b6b31172b45124a4c04787355f90bd8b712[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 23 08:48:50 2021 -0700
+
+    Commenting out the part of the code that causes output to give an infinite loop
+
+[33mcommit 9a4414049edae7315e587487242e72b0557a225d[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 23 08:48:24 2021 -0700
+
+    Commenting out the part of the code that causes output to give an infinite loop
+
+[33mcommit 209cdd5dd56a2c3d5be5c97ab913c692e0f083b4[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 23 08:32:32 2021 -0700
+
+    Tests that the function,positive_or_negative(), gives the correct output when given a case of 0
+
+[33mcommit 93c51df9aaa69a3b6218f04e277b3a133d0c35ab[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 23 08:26:36 2021 -0700
+
+    Header file for project
+
+[33mcommit e9623563e6bdbf1cbe04d6cb2501daa0974d5a57[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Wed Jun 23 08:25:04 2021 -0700
+
+    Updated Readme
+
+[33mcommit 7f05545900fd51112773ddbc8965bf6e37b242e8[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 10:33:02 2021 -0700
+
+    Prints the first 98 Fibonacci numbers, starting with 1 and 2
+
+[33mcommit be79b62c265ba3db5d0305245a0b7b7be7cf6852[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 10:30:17 2021 -0700
+
+    Prints the first 98 Fibonacci numbers, starting with 1 and 2
+
+[33mcommit 19923ebc3737f8939e120cefe63df5e103c5c58b[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 10:18:10 2021 -0700
+
+    Prints the sum of the even-valued terms in the Fibonacci sequence whose values do not exceed 4,000,000
+
+[33mcommit 7379b1d666f3d8b2139808fdd7596350a3cd1531[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 10:07:13 2021 -0700
+
+    Prints the first 50 Fibonacci numbers, starting with 1 and 2
+
+[33mcommit 32047d64cbebd879ed1fbd369cab26ab66e24c9b[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 09:57:05 2021 -0700
+
+    Computes and prints the sum of all the multiples of 3 or 5 below 1024
+
+[33mcommit b58dc53b57f1cc6079d982cde44dcd019cd2750d[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 09:48:57 2021 -0700
+
+    Prints the n times tables from 0 to 15
+
+[33mcommit 0ca2202c059b102dbea79f1a79243a9f80b83620[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 08:58:48 2021 -0700
+
+    Prints all natural numbers from n to 98
+
+[33mcommit 282df969077b88563c9be08c29f47f0411129aa6[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 08:51:02 2021 -0700
+
+    Adds two integers and returns the result
+
+[33mcommit 36e8a7e3b2b35bcef6ab6e8277c1b331c50dca44[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 08:45:40 2021 -0700
+
+    Prints the 9 times table, starting with 0
+
+[33mcommit 5083058c8cb75eecf26e5708e58de124101ecb17[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 07:10:46 2021 -0700
+
+    Prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
+
+[33mcommit 3e58c48c77e16ce9770373c193b4af429e866329[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 06:55:33 2021 -0700
+
+    Prints the last digit of a number
+
+[33mcommit 44baa50af7ab978fa918c139a39521c4e1fe63ea[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 06:43:56 2021 -0700
+
+    Computes the absolute value of an integer
+
+[33mcommit a0c84f5f763d9c044837d8aa8c0598cd7d6ac3d0[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 06:32:42 2021 -0700
+
+    Prints the sign( +,-,0) of a number
+
+[33mcommit 1fccab770a7c899c5b0158e7b7b307aec23c165b[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 06:15:15 2021 -0700
+
+    Checks if charater is alphabetic
+
+[33mcommit efb7cedc68e612d7b15e90b79364a7ffc383cbe8[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 06:06:29 2021 -0700
+
+    Checks if charater is lowercase
+
+[33mcommit 0bb1c6868cc4b50715222a08cca10e67137506f1[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 05:48:13 2021 -0700
+
+    Print the alphabets 10 times
+
+[33mcommit 26fc6e0e4d48bcddc8debec2e87aab80f24a5070[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 05:41:36 2021 -0700
+
+    Print the alphabets in lowercase
+
+[33mcommit 45c5a8855f3118f90512934d2b2a6ba77c049404[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 05:21:38 2021 -0700
+
+    Printing the word 'Holberton'
+
+[33mcommit 36bf3de460ece23b79db082942c15c7951b46bad[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 05:20:32 2021 -0700
+
+    Printing the word 'Holberton'
+
+[33mcommit 2afe4cea7404c13b912d34f79f2dbc2aa7905b61[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 05:17:45 2021 -0700
+
+    Header file for the programme
+
+[33mcommit 9010ae2eabcadd78505159af51bef3ace7a5a080[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 05:14:06 2021 -0700
+
+    Header file for the programme
+
+[33mcommit 4269885b94e486b49a6b8b3f5cc4900d6d898110[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 05:10:39 2021 -0700
+
+    Printing the word 'Holberton'
+
+[33mcommit 6294cdbb7521e53332e29dfed7bbf0b05256393b[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 04:58:58 2021 -0700
+
+    Printing the word 'Holberton'
+
+[33mcommit 9ffe20e469ebc2581510e594f8d39cd1b4403419[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 04:51:59 2021 -0700
+
+    Printing the word 'Holberton'
+
+[33mcommit 4c0f28a58ccf1504c185665c5ac6a30ed587f488[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 04:46:47 2021 -0700
+
+    Printing the word 'Holberton'
+
+[33mcommit 50688b3d55c7165ae687d1c3fd001c36439e3d87[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Tue Jun 22 04:38:27 2021 -0700
+
+    C programming
+
+[33mcommit 29833ad7fe18a8f6fd4f61d08d2d8026f3bd7041[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 11:27:21 2021 -0700
+
+    C code that prints all possible combination of two 2-digits
+
+[33mcommit a1b6e82570c3825a88f169dd637f23052ae573c3[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 11:18:12 2021 -0700
+
+    C code that prints all possible combination of 3-digits
+
+[33mcommit e99545d9f5fd2e0a7063b82d9a644e217d50d567[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 11:13:47 2021 -0700
+
+    C code that prints all possible combination of 2-digits
+
+[33mcommit 6702c0b7894aae9f99c4923b542eb74c5367855c[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 11:05:19 2021 -0700
+
+    C code that prints all possible combination of numbers 0-9
+
+[33mcommit a2e4ed90b210c92273cbb50a7a510d3715aead14[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 11:04:18 2021 -0700
+
+    C code that prints all possible combination of numbers 0-9
+
+[33mcommit 2187dab9c765e28ae3cb025c116dbd3c4f6e6238[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:52:54 2021 -0700
+
+    C code that prints all the numbers of base 16 in lowercase
+
+[33mcommit 3a490e620611df65e918d1ecf0b1580c5a552f93[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:48:38 2021 -0700
+
+    C code that prints the lowercase alphabets in reverse
+
+[33mcommit 54744c081512fae8caffb3d74f14a3cf9612bf0f[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:47:58 2021 -0700
+
+    C code that prints the lowercase alphabets in reverse
+
+[33mcommit 7fc73b99c7e8c6b50e4972a0de57912f267c7da5[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:36:28 2021 -0700
+
+    C code that prints all single digits of base 10 from '0'
+
+[33mcommit 06453dc9b78afe6b2858cd98287a7aa4931080f7[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:31:29 2021 -0700
+
+    C code that prints all single digits of base 10 from '0'
+
+[33mcommit 5ea541e16cc5d72af2a66736728cd2614288029f[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:22:14 2021 -0700
+
+    C code that prints the alphabets in lowercase except 'q' and 'e'
+
+[33mcommit 9b1f33ec8852cfbe6ae1e6901528a498c01b4c67[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:18:05 2021 -0700
+
+    C code that prints the alphabets in lowercase then uppercase
+
+[33mcommit fc9897d573134120fa8315a78b2c53558fd48010[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:17:28 2021 -0700
+
+    C code that prints the alphabets in lowercase then uppercase
+
+[33mcommit 3983c1a41e7ff037cdd509f4d03a0ce54d725308[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:11:57 2021 -0700
+
+    C code that checks if the number stored in the variable 'n' is positive or negative
+
+[33mcommit cb261d47d3facf4023527966b08bf23fcce4b620[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 10:02:46 2021 -0700
+
+    C code to print the alphabet in lowercase
+
+[33mcommit 2d3caeedab5472ea3ca2f436d288f5994aa5f332[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 09:55:19 2021 -0700
+
+    C code to print the last digit of the number stored in the variable 'n'
+
+[33mcommit 212a9744b9ac7332fafc2413f49157303436ca82[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 09:51:34 2021 -0700
+
+    C code to print the last digit of the number stored in the variable 'n'
+
+[33mcommit d5e99b1bb7d53bbaba0b1f58c5522269ce2c2c2f[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 09:43:06 2021 -0700
+
+    C code to check if number stored in the variable 'n' is positive or negative
+
+[33mcommit 53dd5a152901ce227dfa4718670b5846932f8c13[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 09:42:26 2021 -0700
+
+    C code to check if number stored in the variable 'n' is positive or negative
+
+[33mcommit 598d46bca3f0b4fe12e204c872939d375a448d3a[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Fri Jun 18 09:18:24 2021 -0700
+
+     C programming - variables, if, else, while
+
+[33mcommit 50c9f722b055fb5727560810b87ff2e784b77cc7[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 13:19:07 2021 -0700
+
+    C program that prints the text exactly
+
+[33mcommit 9b8574745f3cb53093f7447c298cbaf83035df22[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 12:52:27 2021 -0700
+
+    C program that prints the text exactly
+
+[33mcommit 5ec45b95396ef28225aafa0864eecb3c61f9d86c[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 12:49:05 2021 -0700
+
+    C program that prints the text exactly
+
+[33mcommit 6ec610c0807f2b8327bfca3ad051b40796bfc2aa[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 12:30:57 2021 -0700
+
+    Generates the assembly code (intel syntax) of a C code and saves it in an output file
+
+[33mcommit 63db9aa68562d7871f332832bcc1b5f4ec75f095[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 12:16:40 2021 -0700
+
+    C program that prints the size of various types on the computer it is compiled and run on
+
+[33mcommit 740925597a641927388600835f77bda55cca86f7[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 12:10:50 2021 -0700
+
+    Prints a text in the code
+
+[33mcommit 29ef2b38d599756a740b726591f223f450fab5a8[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 12:07:28 2021 -0700
+
+    Prints a text in the code
+
+[33mcommit e940eb1046811f5163db6e0aa27c93ad5d8cc3b0[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 10:37:00 2021 -0700
+
+    C program that prints the size of the various types on the computer it is compiled and run on
+
+[33mcommit 0a738bc2f731eea9b8b786fae12373e014913a9d[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 10:06:17 2021 -0700
+
+    prints the text in the code
+
+[33mcommit 5bfb26f0da2c7c40e62611b48259080fb193ded5[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 09:55:16 2021 -0700
+
+    Prints the text in the code
+
+[33mcommit b1b90187b6c510e8d05ab3534f5d83d87a543e38[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 09:45:18 2021 -0700
+
+    Prints the text in the file
+
+[33mcommit fb11ff6b2022306ea3272a3c5c514f99c311fd5c[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 09:15:30 2021 -0700
+
+    Compiles a C file and creates an executable named 'cisfun'
+
+[33mcommit f0778b3d188a5c9aab172c479571ad8263a61dc3[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 09:09:57 2021 -0700
+
+    Generates the assembly code of the C code and saves it in an ouput file
+
+[33mcommit 79592570c9d9b1e8f98b3976885d927e8f0524e8[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 08:59:29 2021 -0700
+
+    Compiles a C file but does not link
+
+[33mcommit 9ae0029b1620886117154f9d9ab81fb71b12c745[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 08:51:31 2021 -0700
+
+    Running a C file through the preprocessor and saving the result in another file
+
+[33mcommit a83abeacd84bb7ee1a2a879664ed8f84c1cc3216[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 08:44:16 2021 -0700
+
+    Hello World in C language
+
+[33mcommit 4e00e9b75aaf3d296c7451d32e07ac1baccaac65[m
+Author: JoeKAboagye <Josephkwabenaaboagye@gmail.com>
+Date:   Thu Jun 17 08:32:32 2021 -0700
+
+    ALX low level programming
