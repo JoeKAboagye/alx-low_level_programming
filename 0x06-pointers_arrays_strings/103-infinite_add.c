@@ -1,48 +1,48 @@
 #include "holberton.h"
 
 /**
- * infinite_add - adds two numbers
+ * infinite_sum - sums two numbers
  * @n1: 1st number
  * @n2: 2nd number
  * @r: Buffer the function uses to store the result
  * @size_r: buffer size:
- * Return: the pointer to dest.
+ * Return: r
  */
 
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
+char *infinite_sum(char *n1, char *n2, char *r, int size_r)
 {
-	int c1 = 0, c2 = 0, op, bg, dr1, dr2, add = 0;
+	int a1 = 0, a2 = 0, op, bg, dr1, dr2, sum = 0;
 
-	while (*(n1 + c1) != '\0')
-		c1++;
-	while (*(n2 + c2) != '\0')
-		c2++;
-	if (c1 >= c2)
-		bg = c1;
+	while (*(n1 + a1) != '\0')
+		a1++;
+	while (*(n2 + a2) != '\0')
+		a2++;
+	if (a1 >= a2)
+		bg = a1;
 	else
-		bg = c2;
+		bg = a2;
 	if (size_r <= bg + 1)
 		return (0);
 	r[bg + 1] = '\0';
-	c1--, c2--, size_r--;
-	dr1 = *(n1 + c1) - 48, dr2 = *(n2 + c2) - 48;
+	a1--, a2--, size_r--;
+	dr1 = *(n1 + a1) - 48, dr2 = *(n2 + a2) - 48;
 	while (bg >= 0)
 	{
-		op = dr1 + dr2 + add;
+		op = dr1 + dr2 + sum;
 		if (op >= 10)
-			add = op / 10;
+			sum = op / 10;
 		else
-			add = 0;
+			sum = 0;
 		if (op > 0)
 		*(r + bg) = (op % 10) + 48;
 		else
 			*(r + bg) = '0';
-		if (c1 > 0)
-			c1--, dr1 = *(n1 + c1) - 48;
+		if (a1 > 0)
+			a1--, dr1 = *(n1 + a1) - 48;
 		else
 			dr1 = 0;
-		if (c2 > 0)
-			c2--, dr2 = *(n2 + c2) - 48;
+		if (a2 > 0)
+			a2--, dr2 = *(n2 + a2) - 48;
 		else
 			dr2 = 0;
 		bg--, size_r--;
