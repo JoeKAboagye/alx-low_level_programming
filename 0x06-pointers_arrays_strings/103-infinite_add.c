@@ -6,7 +6,7 @@
  * @n2: 2nd number
  * @r: Buffer the function uses to store the result
  * @size_r: buffer size:
- * Return: r
+ * Return: Resulting stored sum
  */
 
 char *infinite_sum(char *n1, char *n2, char *r, int size_r)
