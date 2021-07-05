@@ -5,7 +5,7 @@
  * in the string 's'
  * @s: string
  * @c: Character
- * Return: Pointer to the first occurence of the character or 
+ * Return: Pointer to the first occurence of the character or
  * pointer to null value if not found
  */
 
