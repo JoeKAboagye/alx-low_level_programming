@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - adds two integers
+ * main - adds two positive numbers
  * @argc: number of arguments
  * @argv: array of pointers
  *
@@ -27,4 +27,21 @@ int main(int argc, char **argv)
 	}
 	printf("%d\n", sum);
 	return (0);
+}
+
+/**
+ * checker - check if its letter
+ * @c: checker character
+ *
+ * Return: 0 if found in range 1 if not
+ */
+int checker(char *c)
+{
+	while (*c)
+	{
+		if ((*c >= 65 && *c <= 90) || (*c >= 97 && *c <= 122))
+			return (0);
+		c++;
+	}
+	return (1);
 }
