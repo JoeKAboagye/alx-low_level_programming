@@ -2,45 +2,43 @@
 #include <stdlib.h>
 
 /**
- * *argstostr - concatenates all arguements to the program
- * @ac: arguement count
- * @av: pointer to arguements
- * Return: pointer to new space in memory or null
+ * argstostr - concatenate all arguments of your program with newline
+ * @ac: argument count
+ * @av: double pointer to array of strings passed to main
+ * Return: Null if fail, else return pointer to new string
  */
 
 char *argstostr(int ac, char **av)
 {
-	char *strCopy;
-	int i, j, k, size;
+char *a, *retp;
+int i, j, total;
 
-	if (ac == 0 || av == NULL)
-		return (NULL);
-	size = 0;
-/* count the number of chars in each string */
-	for (i = 0; i < ac; i++)
-	{
-		for (j = 0; av[i][j] != '\0'; j++)
-			size++;
-		size++;
-	}
-	size++;
+if (ac == 0 || av == NULL)
+return (NULL);
 
-	/*
-	 *allocate memory for total number of chars and
-	 *new line for each word
-	 */
-	strCopy = malloc(sizeof(char) * size);
-	if (strCopy == NULL)
-		return (NULL);
-	k = 0;
-	for (i = 0; i < ac; i++)
-	{
-		for (j = 0; av[i][j] != '\0'; j++)
-		{
-			strCopy[k++] = av[i][j];
-		}
-		strCopy[k++] = '\n';
-	}
-	strCopy[k] = '\0';
-	return (strCopy);
+for (i = 0, total = 0; i < ac; i++)
+{
+for (j = 0; *(*(av + i) + j) != '\0'; j++, total++)
+;
+total++;
+}
+total++;
+
+a = malloc(total *sizeof(char));
+if (a == NULL)
+return (NULL);
+
+retp = a;
+for (i = 0; i < ac; i++)
+{
+for (j = 0; av[i][j] != '\0'; j++)
+{
+*a = av[i][j];
+a++;
+}
+*a = '\n';
+a++;
+}
+
+return (retp);
 }
