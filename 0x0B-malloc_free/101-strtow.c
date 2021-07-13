@@ -1,101 +1,75 @@
 #include "holberton.h"
 #include <stdlib.h>
-
 /**
- * strtow - split string to words
- * @str: string
- *
- * Return: NULL if size 0
- */
+ * wordCounterRec - count num of words recursively
+ * @str: pointer to char
+ * @i: current index
+ * Return: number of words
+ **/
+int wordCounterRec(char *str, int i)
+{
+	if (str[i] == '\0')
+		return (0);
+	if (str[i] == ' ' && str[i + 1] != ' ' && str[i + 1] != '\0')
+		return (1 + wordCounterRec(str, i + 1));
+	return (wordCounterRec(str, i + 1));
+}
+/**
+ * word_counter - counts number of words in 1d array of strings
+ * @str: pointer to char
+ * Return: number of words
+ **/
+int word_counter(char *str)
+{
+	if (str[0] != ' ')
+		return (1 + wordCounterRec(str, 0));
+	return (wordCounterRec(str, 0));
+}
+/**
+ * strtow - splits a string into words.
+ * @str: string to be splitted
+ * Return: pointer to an array of strings (words) or null
+ **/
 char **strtow(char *str)
 {
-	char **spl;
-	int a = 0, temp = 0, i, v = 0, words = split(str);
+	char **strCopy;
+	int i, n, m, words;
 
-	if (words == 0)
+	if (str == NULL || str[0] == 0)
 		return (NULL);
-	spl = (char **) malloc(sizeof(char *) * (words + 1));
-	if (spl != NULL)
+	words = word_counter(str);
+	if (words < 1)
+		return (NULL);
+	strCopy = malloc(sizeof(char *) * (words + 1));
+	if (strCopy == NULL)
+		return (NULL);
+	i = 0;
+	while (i < words && *str != '\0')
 	{
-		for (i = 0; i <= _strlen(str) && words; i++)
+		if (*str != ' ')
 		{
-			if ((str[i] != ' ') && (str[i] != '\0'))
-				a++;
-			if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
+			n = 0;
+			while (str[n] != ' ')
+				n++;
+			strCopy[i] = malloc(sizeof(char) * (n + 1));
+			if (strCopy[i] == NULL)
 			{
-				spl[v] = (char *) malloc(sizeof(char) * (a + 1));
-				if (spl[v] != NULL)
-				{
-					while (temp < a)
-					{
-						spl[v][temp] = str[(v - a) + temp];
-						temp++;
-					}
-					spl[v][temp] = '\0';
-					a = temp = 0;
-					v++;
-				}
-				else
-				{
-					while (v-- >= 0)
-						free(spl[i]);
-					free(spl);
-					return (NULL);
-				}
+				while (--i >= 0)
+					free(strCopy[--i]);
+				free(strCopy);
+				return (NULL);
 			}
-		}
-		spl[words] = NULL;
-		return (spl);
-	}
-	else
-		return (NULL);
-}
-
-/**
- * split - return the length of a a string
- * @str: string to be checked
- *
- * Return: lenght of string
- */
-
-int split(char *str)
-{
-	int i = 0, words = 0;
-
-	while (i <= _strlen(str))
-	{
-		if ((str[i] != ' ') && (str[i] != '\0'))
-		{
+			m = 0;
+			while (m < n)
+			{
+				strCopy[i][m] = *str;
+				m++, str++;
+			}
+			strCopy[i][m] = '\0';
 			i++;
 		}
-		else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
-		{
-			words += 1;
-			i++;
-		}
-		else
-		{
-			i++;
-		}
+		str++;
 	}
-	return (words);
-}
-
-/**
- * _strlen - return the length of a a string by words
- * @str: string to be checked
- *
- * Return: lenght of string
- */
-
-int _strlen(char *str)
-{
-	int len = 0;
-
-	if (str != NULL)
-	{
-		while (str[len])
-			len++;
-	}
-	return (len);
+	strCopy[i] = '\0';
+	return (strCopy);
 }
