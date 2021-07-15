@@ -13,26 +13,54 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *p;
-	unsigned int t1, t2, i;
+	int j = 0, a = _strlen(s1);
+	int i = 0, b;
+	char *str;
 
-	if (s1 == NULL)
-		t1 = 0;
-	for (t1 = 0; s1[t1]; ++t1)
-		;
-	if (s2 == NULL)
-		t2 = 0;
-	for (t2 = 0; s2[t2]; ++t2)
-		;
-	if (t2 > n)
-		t2 = n;
-	p = malloc((t1 + t2 + 1) * sizeof(char));
-	if (p == NULL)
+	str = malloc(a + n + 1);
+	if (n < (unsigned int) _strlen(s2))
+	{
+		b = n;
+	}
+	else
+	{
+		b = _strlen(s2);
+	}
+	if (str != NULL)
+	{
+		for (; j < a; j++)
+		{
+			str[j] = s1[j];
+		}
+		for (; i < b; i++)
+		{
+			str[i + j] = s2[i];
+		}
+		str[i + j] = '\0';
+	}
+	else
 		return (NULL);
-	for (i = 0; i < t1; i++)
-		p[i] = s1[i];
-	for (i = 0; i < t2; i++)
-		p[t1 + i] = s2[i];
-	p[t1 + t2] = '\0';
-	return (p);
+	return (str);
+}
+
+/**
+ * _strlen - return the length of a a string
+ * @s: string to be checked
+ *
+ * Return: lenght of string
+ */
+
+int _strlen(char *s)
+{
+	int var;
+	int output = 0;
+
+	if (s != NULL)
+	{
+		for (var = 0; s[var] != '\0'; var++)
+		{
+			output += 1;
+		}
+	}
+	return (output);
 }
