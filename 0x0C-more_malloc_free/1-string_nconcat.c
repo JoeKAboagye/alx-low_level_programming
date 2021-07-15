@@ -1,64 +1,47 @@
+#include <stdlib.h>
 #include "holberton.h"
 
 /**
- * string_nconcat - function to concatinate two strings
- * @s1: first string
- * @s2: second string
- * @n: size of init s2
+ * *string_nconcat - concatenates n bytes of a
+ *                   string to another string
+ * @s1: string to append to
+ * @s2: string to concatenate from
+ * @n: number of bytes from s2 to concatenate to s1
  *
- * Return: NULL if size 0
+ * Return: pointer to the resulting string
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int j = 0, a = _strlen(s1);
-	int i = 0, b;
-	char *str;
+	char *s;
+	unsigned int i = 0, j = 0, len1 = 0, len2 = 0;
 
-	str = malloc(a + n + 1);
-	if (n < (unsigned int) _strlen(s2))
-	{
-		b = n;
-	}
+	while (s1 && s1[len1])
+		len1++;
+	while (s2 && s2[len2])
+		len2++;
+
+	if (n < len2)
+		s = malloc(sizeof(char) * (len1 + n + 1));
 	else
-	{
-		b = _strlen(s2);
-	}
-	if (str != NULL)
-	{
-		for (; j < a; j++)
-		{
-			str[j] = s1[j];
-		}
-		for (; i < b; i++)
-		{
-			str[i + j] = s2[i];
-		}
-		str[i + j] = '\0';
-	}
-	else
+		s = malloc(sizeof(char) * (len1 + len2 + 1));
+
+	if (!s)
 		return (NULL);
-	return (str);
-}
 
-/**
- * _strlen - return the length of a a string
- * @s: string to be checked
- *
- * Return: lenght of string
- */
-
-int _strlen(char *s)
-{
-	int var;
-	int output = 0;
-
-	if (s != NULL)
+	while (i < len1)
 	{
-		for (var = 0; s[var] != '\0'; var++)
-		{
-			output += 1;
-		}
+		s[i] = s1[i];
+		i++;
 	}
-	return (output);
+
+	while (n < len2 && i < (len1 + n))
+		s[i++] = s2[j++];
+
+	while (n >= len2 && i < (len1 + len2))
+		s[i++] = s2[j++];
+
+	s[i] = '\0';
+
+	return (s);
 }
