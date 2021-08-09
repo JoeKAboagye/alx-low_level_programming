@@ -1,11 +1,9 @@
 # General
 
-* Look for the right source of information online
-* How to create, open, close, read and write files
-* What are file descriptors
-* What are the 3 standard file descriptors, what are their purpose and what are their POSIX names
-* How to use the I/O system calls open, close, read and write
-* What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
-* What are file permissions, and how to set them when creating a file with the open system call
-* What is a system call
-* What is the difference between a function and a system call
+## C - File I/O
+
+Standard file descriptors and the POSIX names as well as the
+difference between function and system calls.
+Use the I/O system calls open, close, read, and write and the flags
+O_RDONLY, WR_ONLY, and O_RDWR to create, open, close, read, write, set permissions of files in C.
+
