@@ -51,6 +51,6 @@ listint_t *jump_list(listint_t *list, size_t size, int value);
 skiplist_t *linear_skip(skiplist_t *list, int value);
 
 /* helpers */
-int advanced_binary_recursive(int *array, size_t left, size_t right, int value);
+int advance_binary_recursive(int *array, size_t left, size_t right, int value);
 
 #endif
