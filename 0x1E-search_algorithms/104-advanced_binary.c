@@ -13,7 +13,7 @@
  *
  * Description: Prints the [sub]array being searched after each change.
  */
-int advanced_binary_recursive(int *array, size_t left, size_t right, int value)
+int advance_binary_recursive(int *array, size_t left, size_t right, int value)
 {
 	size_t i;
 
